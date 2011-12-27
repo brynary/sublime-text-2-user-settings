@@ -1,0 +1,21 @@
+// Settings in here override those in "Default/Base File.sublime-settings", and
+// are overridden in turn by file type specific settings. Place your settings
+// here, to ensure they're preserved when upgrading.
+{
+  // Whitespace
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+
+  // Visual Settings
+  "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+  "font_face": "Inconsolata-dz",
+  "font_size": 22,
+  "highlight_line": true,
+
+  // Automatic behavior
+  "ensure_newline_at_eof_on_save": true,
+  "save_on_focus_lost": true,
+  "auto_complete": false,
+  "tab_completion": false
+}
