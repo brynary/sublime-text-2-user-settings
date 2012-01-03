@@ -34,5 +34,10 @@
   {
     "keys": ["super+shift+h"],
     "command": "goto_documentation"
-  }
+  },
+  {
+    "keys": ["super+l"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": ":"}
+}
 ]
