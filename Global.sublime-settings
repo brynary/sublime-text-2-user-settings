@@ -1,24 +1,25 @@
 {
-	"file_exclude_patterns":
-	[
-		".DS_Store",
-		".tags*",
-		"*.pyc"
-	],
-	"folder_exclude_patterns":
-	[
-		"data",
-		".git",
-		".sass-cache",
-		".bundle",
-		"bin",
-		"script",
-		"tmp"
-	],
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Soda Light.sublime-theme"
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    ".tags*",
+    "*.pyc"
+  ],
+  "folder_exclude_patterns":
+  [
+    "data",
+    ".git",
+    ".sass-cache",
+    ".bundle",
+    ".rbx",
+    "bin",
+    "script",
+    "tmp"
+  ],
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "theme": "Soda Light.sublime-theme"
 }
