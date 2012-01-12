@@ -16,6 +16,5 @@
   // Automatic behavior
   "ensure_newline_at_eof_on_save": true,
   "save_on_focus_lost": true,
-  "auto_complete": false,
-  "tab_completion": false
+  "auto_complete_commit_on_tab": true
 }
