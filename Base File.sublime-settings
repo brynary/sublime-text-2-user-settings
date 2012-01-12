@@ -12,6 +12,8 @@
   "font_face": "Inconsolata-dz",
   "font_size": 22,
   "highlight_line": true,
+  "line_padding_bottom": 0.5,
+  "line_padding_top": 0.5,
 
   // Automatic behavior
   "ensure_newline_at_eof_on_save": true,
