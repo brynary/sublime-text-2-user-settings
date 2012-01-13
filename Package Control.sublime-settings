@@ -1,7 +1,8 @@
 {
-	"auto_upgrade_last_run": 1326392970,
+	"auto_upgrade_last_run": 1326397213,
 	"installed_packages":
 	[
+		"Alignment",
 		"CTags",
 		"Git",
 		"Package Control",
