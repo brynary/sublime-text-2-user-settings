@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1326397213,
+	"auto_upgrade_last_run": 1328243223,
 	"installed_packages":
 	[
 		"Alignment",
@@ -7,6 +7,7 @@
 		"Git",
 		"Package Control",
 		"RSpec",
+		"SCSS",
 		"Terminal",
 		"Theme - Soda"
 	]
