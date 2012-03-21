@@ -19,19 +19,6 @@
     ]
   },
   {
-    "keys": ["#"],
-    "command": "insert_snippet",
-    "args": { "contents": "#{${0:$SELECTION}}" },
-    "context": [
-      {
-        "key": "selector",
-        "match_all": true,
-        "operand": "string.quoted.double.ruby",
-        "operator": "equal"
-      }
-    ]
-  },
-  {
     "keys": ["super+shift+h"],
     "command": "goto_documentation"
   },
