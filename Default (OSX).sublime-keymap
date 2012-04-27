@@ -1,30 +1,31 @@
 [
   {
-    "keys": ["escape"],
-    "command": "alternative_autocomplete",
-    "context": [
-      { "key": "num_selections", "operator": "equal", "operand": 1 },
-      { "key": "overlay_visible", "operator": "equal", "operand": false },
-      { "key": "panel_visible", "operator": "equal", "operand": false }
-    ]
-  },
-  {
-    "keys": ["shift+escape"],
-    "command": "alternative_autocomplete",
-    "args": {"cycle": "previous"},
-    "context": [
-      { "key": "num_selections", "operator": "equal", "operand": 1 },
-      { "key": "overlay_visible", "operator": "equal", "operand": false },
-      { "key": "panel_visible", "operator": "equal", "operand": false }
-    ]
-  },
-  {
-    "keys": ["super+shift+h"],
-    "command": "goto_documentation"
-  },
-  {
     "keys": ["super+l"],
     "command": "show_overlay",
     "args": {"overlay": "goto", "text": ":"}
-}
+  },
+  {
+    "keys": ["ctrl+super+r"],
+    "command": "reveal_in_side_bar"
+  },
+  {
+    "keys": ["ctrl+]"],
+    "command": "navigate_to_definition"
+  },
+  {
+    "keys": ["super+alt+w"],
+    "command": "close_others_by_index",
+    "args": { "group": 0, "index": 0 }
+  },
+  {
+    "keys": ["super+shift+c"],
+    "command": "copy_path_to_clipboard"
+  },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  {
+    "keys": ["super+alt+]"],
+    "command": "reindent",
+    "args": { "single_line": false }
+  }
 ]
