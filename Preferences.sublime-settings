@@ -1,8 +1,8 @@
 {
   "auto_complete_commit_on_tab": true,
+  "bold_folder_labels": true,
   "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
   "ensure_newline_at_eof_on_save": true,
-  "bold_folder_labels": true,
   "file_exclude_patterns":
   [
     ".DS_Store",
@@ -47,6 +47,7 @@
   "font_size": 22,
   "highlight_line": true,
   "highlight_modified_tabs": true,
+  "rulers": [80],
   "ignored_packages":
   [
     "Vintage"
