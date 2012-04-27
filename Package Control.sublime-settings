@@ -1,10 +1,12 @@
 {
-	"auto_upgrade_last_run": 1328243223,
+	"auto_upgrade_last_run": 1335536844,
 	"installed_packages":
 	[
 		"Alignment",
 		"CTags",
+		"DetectSyntax",
 		"Git",
+		"Guard",
 		"Package Control",
 		"RSpec",
 		"SCSS",
