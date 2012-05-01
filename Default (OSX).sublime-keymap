@@ -13,9 +13,9 @@
     "command": "navigate_to_definition"
   },
   {
-    "keys": ["super+alt+w"],
-    "command": "close_others_by_index",
-    "args": { "group": 0, "index": 0 }
+    "keys": ["ctrl+shift+down"],
+    "command": "open_rspec_file",
+    "args": {"option": "next"}
   },
   {
     "keys": ["super+shift+c"],
@@ -27,5 +27,15 @@
     "keys": ["super+alt+]"],
     "command": "reindent",
     "args": { "single_line": false }
+  },
+  {
+    "keys": ["super+r"],
+    "command": "run_tests",
+    "args": {"single": false}
+  },
+  {
+    "keys": ["super+shift+r"],
+    "command": "run_tests",
+    "args": {"single": true}
   }
 ]
