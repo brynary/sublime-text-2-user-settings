@@ -1,18 +1,17 @@
 {
-	"auto_upgrade_last_run": 1340677841,
+	"auto_upgrade_last_run": 1340943709,
 	"installed_packages":
 	[
-		"Alignment",
+		"Abacus",
 		"CTags",
 		"DetectSyntax",
 		"Git",
-		"Guard",
 		"Package Control",
 		"RSpec",
 		"Ruby 1.9 Hash Converter",
 		"SCSS",
+		"SideBarEnhancements",
 		"SideBarGit",
-		"Terminal",
 		"Theme - Soda"
 	]
 }
