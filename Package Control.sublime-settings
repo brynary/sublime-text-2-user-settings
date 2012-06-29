@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1335981061,
+	"auto_upgrade_last_run": 1340677841,
 	"installed_packages":
 	[
 		"Alignment",
@@ -9,7 +9,9 @@
 		"Guard",
 		"Package Control",
 		"RSpec",
+		"Ruby 1.9 Hash Converter",
 		"SCSS",
+		"SideBarGit",
 		"Terminal",
 		"Theme - Soda"
 	]
