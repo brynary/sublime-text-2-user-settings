@@ -9,6 +9,10 @@
     "command": "reveal_in_side_bar"
   },
   {
+    "keys": ["super+alt+w"],
+    "command": "close_other_tabs"
+  },
+  {
     "keys": ["ctrl+]"],
     "command": "navigate_to_definition"
   },

@@ -58,10 +58,6 @@ class OpenRspecFileCommand(sublime_plugin.WindowCommand):
 
   def camelize(self, string):
       return re.sub(r"(?:^|_)(.)", lambda x: x.group(0)[-1].upper(), string)
-      import sublime
-      import sublime_plugin
-      import os, errno
-      import re
 
 class RunTests(sublime_plugin.TextCommand):
   def run(self, edit, single):
@@ -80,9 +76,12 @@ class RunTests(sublime_plugin.TextCommand):
       line_number, column = self.view.rowcol(self.view.sel()[0].begin())
       line_number += 1
       path += ":" + str(line_number)
+      command = "time rspec"
+    else:
+      command = "time ruby"
 
     cmd = 'osascript '
-    cmd += '"/Users/bhelmkamp/Library/Application Support/Sublime Text 2/Packages/User/run_command.applescript"'
-    cmd += ' "cd ' + root_path + ' && time ruby ' + path + '"'
+    cmd += '"' + sublime.packages_path() + '/User/run_command.applescript"'
+    cmd += ' "cd ' + root_path + ' && ' + command + ' ' + path + '"'
     cmd += ' "Ruby Tests"'
     os.system(cmd)
