@@ -1,14 +1,17 @@
 {
-	"auto_upgrade_last_run": 1340943709,
+	"auto_upgrade_last_run": 1349405235,
 	"installed_packages":
 	[
 		"Abacus",
+		"All Autocomplete",
+		"CoffeeScript",
 		"CTags",
 		"DetectSyntax",
 		"Git",
 		"Package Control",
 		"RSpec",
 		"Ruby 1.9 Hash Converter",
+		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
 		"SideBarGit",
