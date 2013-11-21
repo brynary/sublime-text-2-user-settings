@@ -1,71 +1,69 @@
 {
-  "auto_complete_commit_on_tab": true,
-  "bold_folder_labels": true,
-  // "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-  "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-  "ensure_newline_at_eof_on_save": true,
-  "file_exclude_patterns":
-  [
-    ".DS_Store",
-    ".tags*",
-    "*.pyc",
-    "*.pyo",
-    "*.exe",
-    "*.dll",
-    "*.obj",
-    "*.o",
-    "*.a",
-    "*.lib",
-    "*.log",
-    "*.so",
-    "*.dylib",
-    "*.ncb",
-    "*.sdf",
-    "*.suo",
-    "*.pdb",
-    "*.idb",
-    "*.class",
-    "*.psd",
-    "*.db",
-    "*.pdf"
-  ],
-  "folder_exclude_patterns":
-  [
-    "data",
-    ".zeus.sock",
-    ".git",
-    ".svn",
-    ".hg",
-    "CVS",
-    ".sass-cache",
-    ".bundle",
-    "bundle",
-    ".rbx",
-    "bin",
-    "script",
-    "tmp"
-  ],
-  "font_face": "Inconsolata-dz",
-  "font_size": 22,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "line_padding_bottom": 0.5,
-  "line_padding_top": 0.5,
-  "new_window_settings":
-  {
-    "show_minimap": false
-  },
-  "rulers":
-  [
-    80
-  ],
-  "save_on_focus_lost": true,
-  "tab_size": 2,
-  "theme": "Soda Light.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.log",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.pdf"
+	],
+	"folder_exclude_patterns":
+	[
+		"data",
+		".zeus.sock",
+		".git",
+		".svn",
+		".hg",
+		"CVS",
+		".sass-cache",
+		".bundle",
+		"bundle",
+		".rbx",
+		"script",
+		"tmp"
+	],
+	"font_face": "Inconsolata-dz",
+	"font_size": 21.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0.5,
+	"line_padding_top": 0.5,
+	"new_window_settings":
+	{
+		"show_minimap": false
+	},
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"tab_size": 2,
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
